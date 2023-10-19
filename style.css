@@ -1,0 +1,108 @@
+body{
+    padding-bottom:250px;
+    background: url(image.jpg);
+     background-repeat: no-repeat;
+     background-size: 1100px;
+     background-position: center;
+
+}
+.form-container{
+    display:inline-block;
+    margin-bottom: 40px;
+    background-color: rgba(9, 9, 9, 0.539);
+    padding:17px;
+    border-radius: 3px;
+    position:fixed;
+    right:120px;
+    top:100px;
+
+}
+.register-form{
+    border:1px solid orange;
+    color:white;
+    background-color: orange;
+    margin-bottom: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    padding-left: 40px;
+    border-radius: 5px;
+}
+.form{
+    margin-bottom: 20px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-size: 14px;
+    background: transparent;
+    border-bottom: 1px solid orange;
+    color:white;
+    
+}
+.form:focus{
+    outline:none;
+}
+.form::placeholder{
+    background-color: rgba(9, 9, 9, 0.539);
+    font-size: 14px;
+    color:white;
+}
+.login-button{
+    margin-top:20px;
+    display:block;
+    font-size:15px;
+    color:white;
+    background-color: rgb(1, 63, 76);
+    width:200px;
+    border:none;
+    padding:5px;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor:pointer;
+}
+.login-button:hover{
+    background-color: white;
+    color:black;
+}
+.login-info{
+    color:white;
+}
+
+.courseinfo-container{
+    width:260px;
+    padding:2px;
+    position:relative;
+    top:160px;
+    left:15px;
+}
+.webcourse{
+    font-weight: bold;
+    font-size: 26px;
+    color:white;
+    text-transform:uppercase;
+    margin-bottom:0px;
+}
+.info{
+    display:inline-block;
+    width:255px;
+    text-align: middle;
+    color:white;
+    font-size: 18px;
+    margin-top: 0;
+}
+.join-button{
+    display:block;
+    border:1px solid forestgreen;
+    font-size: 16px;
+    color:white;
+    font-weight: bold;
+    background-color:green;
+    border-radius:5px;
+    cursor:pointer;
+    padding:5px;
+    position:absolute;
+    left:50px;
+}
+.join-button:hover{
+    background-color:black;
+}
